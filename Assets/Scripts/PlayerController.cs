@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
 		
 	}
 
+    // physics calculations for frame
     private void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
